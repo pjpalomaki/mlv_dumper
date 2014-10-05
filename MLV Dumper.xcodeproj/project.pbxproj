@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0FB62D719D4277E009F1879 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0FB62D619D4277E009F1879 /* AppleScriptObjC.framework */; };
+		C0FB62DC19D4277E009F1879 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FB62DB19D4277E009F1879 /* main.m */; };
+		C0FB62DE19D4277E009F1879 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = C0FB62DD19D4277E009F1879 /* AppDelegate.applescript */; };
+		C0FB62E019D4277E009F1879 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FB62DF19D4277E009F1879 /* Images.xcassets */; };
+		C0FB62E319D4277E009F1879 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0FB62E119D4277E009F1879 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0FB62D319D4277E009F1879 /* MLV Dumper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MLV Dumper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FB62D619D4277E009F1879 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		C0FB62DA19D4277E009F1879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FB62DB19D4277E009F1879 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0FB62DD19D4277E009F1879 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		C0FB62DF19D4277E009F1879 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0FB62E219D4277E009F1879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0FB62D019D4277E009F1879 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FB62D719D4277E009F1879 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0FB62CA19D4277E009F1879 = {
+			isa = PBXGroup;
+			children = (
+				C0FB62D819D4277E009F1879 /* MLV Dumper */,
+				C0FB62D519D4277E009F1879 /* Frameworks */,
+				C0FB62D419D4277E009F1879 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0FB62D419D4277E009F1879 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0FB62D319D4277E009F1879 /* MLV Dumper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0FB62D519D4277E009F1879 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0FB62D619D4277E009F1879 /* AppleScriptObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0FB62D819D4277E009F1879 /* MLV Dumper */ = {
+			isa = PBXGroup;
+			children = (
+				C0FB62DD19D4277E009F1879 /* AppDelegate.applescript */,
+				C0FB62DF19D4277E009F1879 /* Images.xcassets */,
+				C0FB62E119D4277E009F1879 /* MainMenu.xib */,
+				C0FB62D919D4277E009F1879 /* Supporting Files */,
+			);
+			path = "MLV Dumper";
+			sourceTree = "<group>";
+		};
+		C0FB62D919D4277E009F1879 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0FB62DA19D4277E009F1879 /* Info.plist */,
+				C0FB62DB19D4277E009F1879 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0FB62D219D4277E009F1879 /* MLV Dumper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FB62E619D4277E009F1879 /* Build configuration list for PBXNativeTarget "MLV Dumper" */;
+			buildPhases = (
+				C0FB62CF19D4277E009F1879 /* Sources */,
+				C0FB62D019D4277E009F1879 /* Frameworks */,
+				C0FB62D119D4277E009F1879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MLV Dumper";
+			productName = "MLV Dumper";
+			productReference = C0FB62D319D4277E009F1879 /* MLV Dumper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0FB62CB19D4277E009F1879 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "PJ Palomaki";
+				TargetAttributes = {
+					C0FB62D219D4277E009F1879 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C0FB62CE19D4277E009F1879 /* Build configuration list for PBXProject "MLV Dumper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0FB62CA19D4277E009F1879;
+			productRefGroup = C0FB62D419D4277E009F1879 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0FB62D219D4277E009F1879 /* MLV Dumper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0FB62D119D4277E009F1879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FB62E019D4277E009F1879 /* Images.xcassets in Resources */,
+				C0FB62E319D4277E009F1879 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0FB62CF19D4277E009F1879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FB62DE19D4277E009F1879 /* AppDelegate.applescript in Sources */,
+				C0FB62DC19D4277E009F1879 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0FB62E119D4277E009F1879 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0FB62E219D4277E009F1879 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0FB62E419D4277E009F1879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C0FB62E519D4277E009F1879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C0FB62E719D4277E009F1879 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MLV Dumper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0FB62E819D4277E009F1879 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "MLV Dumper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0FB62CE19D4277E009F1879 /* Build configuration list for PBXProject "MLV Dumper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FB62E419D4277E009F1879 /* Debug */,
+				C0FB62E519D4277E009F1879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FB62E619D4277E009F1879 /* Build configuration list for PBXNativeTarget "MLV Dumper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FB62E719D4277E009F1879 /* Debug */,
+				C0FB62E819D4277E009F1879 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0FB62CB19D4277E009F1879 /* Project object */;
+}
